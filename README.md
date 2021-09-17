@@ -7,4 +7,4 @@ these files are associated with my youtube video which exist at the link below :
 https://youtu.be/I31Kah-josQ
 
 please feel free to fork and star this repository .
-![Thumb](https://user-images.githubusercontent.com/53148716/133855185-0764fb35-df05-424b-be4a-330c8c589e06.png)
+![navigation bar drop down menu (6)](https://user-images.githubusercontent.com/53148716/133856160-4d0e0ed0-048c-4838-a8ac-28ced1f4d8b4.png)
