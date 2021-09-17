@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    font-family:"Roboto" , "sans-serif" ;
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+form{
+  background-color: #a7d7c5 ;  
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  padding: 0;
+  display: grid;
+  grid-template: 
+  ". title ."25%
+  ". one ." 15%
+  ". two ." 15%
+  ". link ."10%
+  ". . ."
+  ". submit ."20%
+  /10% auto 10%
+  ;
+  border: 1px solid #a7d7c5 ;
+  box-shadow: 2px 4px 12px rgb(177, 177, 177);
+  border-radius: 7px;
+}
+.inputDiv{
+    display: grid;
+    grid-template: 
+    "input icon"
+    /80% 20%
+    ;
+    background-color:rgba(255, 255, 255, 0.426); 
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #a7d7c5 ;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.title{
+    grid-area: title;
+    font-size: 50px;
+    color:#4c5756;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+i{
+    grid-area: icon;
+    color:grey;
+}
+.submit{
+    background-color:#5c8d89;
+    grid-area: submit;
+    width: 400px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #a7d7c5 ;
+    border-radius: 15px;
+    color:white;
+}
+input{
+    outline:none;
+    border:none;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+a{
+    grid-area: link;
+    justify-self: flex-end;
+    margin-right: 30px;
+    color:rgba(111, 111, 111, 0.803);
+}

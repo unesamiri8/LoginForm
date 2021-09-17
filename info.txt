@@ -1,0 +1,10 @@
+//Joe Grey 
+//social media : @Joegrey24
+
+colors :
+inputDiv rgba(255, 255, 255, 0.426);
+input rgba(255, 255, 255, 0);
+title #4c5756;
+submit #5c8d89;
+form #a7d7c5 ;
+form boxshadow rgb(177, 177, 177)
